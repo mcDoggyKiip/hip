@@ -19,9 +19,8 @@ return [
      */
     'menu' => [
         [
-            'text' => 'Dashboard',          // The text to be displayed inside the menu.
+            'text' => 'Tests',          // The text to be displayed inside the menu.
             'url' => 'tests',     // The URL behind the text. Mutually exclusive with "route" option.
-            'icon' => 'chart-bar far',      // Name of FontAwesome icon to display. Note that you have to use the "far", "fas" or "fal" modifier behind the icon.
         ],
 //        'First section',                    // Section header
 //        [
