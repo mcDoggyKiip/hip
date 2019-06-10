@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!-- CoreUI CSS -->
     <link rel="stylesheet" href="{{ asset('vendor/coreui/css/coreui.min.css') }}">
@@ -40,8 +41,6 @@
                 @each('coreui::menu-item', $coreUI->menu(), 'item')
             </ul>
         </nav>
-        <button class="sidebar-minimizer brand-minimizer" type="button"></button>
-        <script type="application/javascript" src="{{ asset('vendor/coreui/js/add_listener_to_sidebar.js') }}"></script>
     </div>
     <main class="main">
         <div aria-label="breadcrumb">
