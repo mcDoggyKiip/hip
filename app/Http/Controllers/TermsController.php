@@ -60,10 +60,10 @@ class TermsController extends Controller
      * @param  \App\Term  $term
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Term $term)
     {
-        $term = Term::findOrFail($id);
-        return view('terms.show')->withTerms($term);
+
+        return view('terms.show', compact('term'));
     }
 
     /**
