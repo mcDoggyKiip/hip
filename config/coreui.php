@@ -23,12 +23,12 @@ return [
             'url' => 'tests',     // The URL behind the text. Mutually exclusive with "route" option.
             'icon' => 'chart-bar far',      // Name of FontAwesome icon to display. Note that you have to use the "far", "fas" or "fal" modifier behind the icon.
         ],
-//        'First section',                    // Section header
-//        [
-//            'text' => 'Users',
-//            'route' => 'admin.users',       // The route behind the text. Mutually exclusive with "url" option.
-//            'icon' => 'users fas'
-//        ],
+        'First section',                    // Section header
+        [
+            'text' => 'Terms',
+            'route' => 'terms.index',       // The route behind the text. Mutually exclusive with "url" option.
+            'icon' => 'users fas'
+        ],
 //        'Admin only',
 //        [
 //            'can' => 'edit-settings',       // Use Laravel's Gate functionality via the 'can' keyword to show menu items according to your Gate. Note that you need to uncomment the GateFilter in the Filters array below!
