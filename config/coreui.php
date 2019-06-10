@@ -11,8 +11,7 @@ return [
      * Text to put in the top-left of the menu bar. logo_mini is shown when the navbar is collapsed.
      * NOTE: This is a non-escaped string, so you can put HTML in here
      */
-    'logo' => 'Core<strong>UI</strong>',
-    'logo_mini' => 'C',
+    'logo' => 'HIP',
 
     /*
      * Menu builder
