@@ -665,6 +665,64 @@
         ]
     },
     {
+        "name": "hz-hbo-ict/laravel-core-ui",
+        "version": "v2.8.1",
+        "version_normalized": "2.8.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/HZ-HBO-ICT/Laravel-CoreUI.git",
+            "reference": "6da18bb32cf51b6210458040fc860bd3ec558b49"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/HZ-HBO-ICT/Laravel-CoreUI/zipball/6da18bb32cf51b6210458040fc860bd3ec558b49",
+            "reference": "6da18bb32cf51b6210458040fc860bd3ec558b49",
+            "shasum": ""
+        },
+        "require": {
+            "laravel/framework": "~5.8.0",
+            "php": ">=7.1.3"
+        },
+        "time": "2019-06-04T14:40:21+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "HzHboIct\\LaravelCoreUI\\ServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "HzHboIct\\LaravelCoreUI\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gert de Pagter",
+                "email": "BackEndTea@gmail.com"
+            },
+            {
+                "name": "Loek van der Linde",
+                "email": "loek.linde@hz.nl"
+            },
+            {
+                "name": "Daan de Waard",
+                "email": "daan.de.waard@hz.nl"
+            },
+            {
+                "name": "Daniel de Cloet",
+                "email": "djdecloet@gmail.com"
+            }
+        ],
+        "description": "Easy to use package with authentication scaffold that provides an easy implementation of CoreUI within Laravel"
+    },
+    {
         "name": "jakub-onderka/php-console-color",
         "version": "v0.2",
         "version_normalized": "0.2.0.0",

@@ -8,17 +8,17 @@ class ComposerStaticInit56958602afa8f78ae804297367fbe873
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
-        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '0d8253363903f0ac7b0978dcde4e28a0' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/helpers.php',
     );
 
@@ -99,6 +99,10 @@ class ComposerStaticInit56958602afa8f78ae804297367fbe873
         array (
             'Illuminate\\' => 11,
         ),
+        'H' => 
+        array (
+            'HzHboIct\\LaravelCoreUI\\' => 23,
+        ),
         'F' => 
         array (
             'Fideloper\\Proxy\\' => 16,
@@ -134,8 +138,8 @@ class ComposerStaticInit56958602afa8f78ae804297367fbe873
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'XdgBaseDir\\' => 
         array (
@@ -280,6 +284,10 @@ class ComposerStaticInit56958602afa8f78ae804297367fbe873
         'Illuminate\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
+        ),
+        'HzHboIct\\LaravelCoreUI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hz-hbo-ict/laravel-core-ui/src',
         ),
         'Fideloper\\Proxy\\' => 
         array (
@@ -1056,6 +1064,19 @@ class ComposerStaticInit56958602afa8f78ae804297367fbe873
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+        'HzHboIct\\LaravelCoreUI\\Console\\CoreUIMakeCommand' => __DIR__ . '/..' . '/hz-hbo-ict/laravel-core-ui/src/Console/CoreUIMakeCommand.php',
+        'HzHboIct\\LaravelCoreUI\\CoreUI' => __DIR__ . '/..' . '/hz-hbo-ict/laravel-core-ui/src/CoreUI.php',
+        'HzHboIct\\LaravelCoreUI\\Events\\BuildingMenu' => __DIR__ . '/..' . '/hz-hbo-ict/laravel-core-ui/src/Events/BuildingMenu.php',
+        'HzHboIct\\LaravelCoreUI\\Http\\ViewComposers\\CoreUIComposer' => __DIR__ . '/..' . '/hz-hbo-ict/laravel-core-ui/src/Http/ViewComposers/CoreUIComposer.php',
+        'HzHboIct\\LaravelCoreUI\\Menu\\ActiveChecker' => __DIR__ . '/..' . '/hz-hbo-ict/laravel-core-ui/src/Menu/ActiveChecker.php',
+        'HzHboIct\\LaravelCoreUI\\Menu\\Builder' => __DIR__ . '/..' . '/hz-hbo-ict/laravel-core-ui/src/Menu/Builder.php',
+        'HzHboIct\\LaravelCoreUI\\Menu\\Filters\\ActiveFilter' => __DIR__ . '/..' . '/hz-hbo-ict/laravel-core-ui/src/Menu/Filters/ActiveFilter.php',
+        'HzHboIct\\LaravelCoreUI\\Menu\\Filters\\ClassesFilter' => __DIR__ . '/..' . '/hz-hbo-ict/laravel-core-ui/src/Menu/Filters/ClassesFilter.php',
+        'HzHboIct\\LaravelCoreUI\\Menu\\Filters\\FilterInterface' => __DIR__ . '/..' . '/hz-hbo-ict/laravel-core-ui/src/Menu/Filters/FilterInterface.php',
+        'HzHboIct\\LaravelCoreUI\\Menu\\Filters\\GateFilter' => __DIR__ . '/..' . '/hz-hbo-ict/laravel-core-ui/src/Menu/Filters/GateFilter.php',
+        'HzHboIct\\LaravelCoreUI\\Menu\\Filters\\HrefFilter' => __DIR__ . '/..' . '/hz-hbo-ict/laravel-core-ui/src/Menu/Filters/HrefFilter.php',
+        'HzHboIct\\LaravelCoreUI\\Menu\\Filters\\SubmenuFilter' => __DIR__ . '/..' . '/hz-hbo-ict/laravel-core-ui/src/Menu/Filters/SubmenuFilter.php',
+        'HzHboIct\\LaravelCoreUI\\ServiceProvider' => __DIR__ . '/..' . '/hz-hbo-ict/laravel-core-ui/src/ServiceProvider.php',
         'Illuminate\\Auth\\Access\\AuthorizationException' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/AuthorizationException.php',
         'Illuminate\\Auth\\Access\\Gate' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/Gate.php',
         'Illuminate\\Auth\\Access\\HandlesAuthorization' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/HandlesAuthorization.php',

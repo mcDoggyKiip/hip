@@ -1,0 +1,42 @@
+{
+    "name": "hz-hbo-ict/laravel-core-ui",
+    "description": "Easy to use package with authentication scaffold that provides an easy implementation of CoreUI within Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Loek van der Linde",
+            "email": "loek.linde@hz.nl"
+        },
+        {
+            "name": "Gert de Pagter",
+            "email": "BackEndTea@gmail.com"
+        },
+        {
+            "name": "Daan de Waard",
+            "email": "daan.de.waard@hz.nl"
+        },
+        {
+            "name": "Daniel de Cloet",
+            "email": "djdecloet@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HzHboIct\\LaravelCoreUI\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HzHboIct\\LaravelCoreUI\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=7.1.3",
+        "laravel/framework": "~5.8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
