@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="{{ asset('vendor/coreui/css/coreui.min.css') }}">
     <link rel="stylesheet" href="{{ asset('vendor/coreui/fontawesome/css/fontawesome.css') }}">
     <!-- Custom CSS -->
-    @stack('css')
+    <link rel="stylesheet" href="{{ asset('css/app.css') }} ">
 
     <title>@yield('title', config('coreui.title', __('coreui::coreui.default_title')))</title>
 </head>
 <body class="app header-fixed sidebar-fixed sidebar-lg-show sidebar-minimized brand-minimized">
-<header class="app-header navbar">
+<header class="app-header navbar" style="background-color: #373737;">
     <div class="container-fluid">
         <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
             <span class="navbar-toggler-icon"></span>
@@ -52,15 +52,6 @@
         </div>
     </main>
 </div>
-<footer class="app-footer">
-    <div>
-        <span>&copy; {{ \Carbon\Carbon::now()->year }} HZ University of Applied Sciences</span>
-    </div>
-    <div class="ml-auto">
-        <span>Powered by </span><a target="_blank" href="https://coreui.io">CoreUI</a>,
-        <span>inspired by </span><a target="_blank" href="https://github.com/jeroennoten/Laravel-AdminLTE">Laravel-AdminLTE</a>
-    </div>
-</footer>
 
 <!-- jQuery first, then Bootstrap, then CoreUI  -->
 <script type="application/javascript" src="{{ asset('vendor/coreui/js/jquery.slim.min.js') }}"></script>
