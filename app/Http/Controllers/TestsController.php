@@ -13,12 +13,20 @@ class TestsController extends Controller
     }
 
     public function create(){
-        return view('tests.create');
+        $tests = Tests::all();
+        return view('tests.create', compact('tests'));
+    }
+
+    public function edit($id)
+    {
+        $tests = Tests::findOrFail($id);
+        return view('tests.edit', compact('tests'));
     }
 
     public function store(Request $request)
     {
         $tests = new tests();
+
         $tests->attempt = request('attempt');
         $tests->week = request('week');
         $tests->save();
@@ -26,13 +34,20 @@ class TestsController extends Controller
         return redirect('/tests');
     }
 
-    public function update(Request $request)
+    public function update($id, Request $request)
     {
         $tests = Tests::findOrFail($id);
+
         $tests->attempt = request('attempt');
         $tests->week = request('week');
         $tests->save();
 
+        return redirect('/tests');
+    }
+
+    public function destroy($id)
+    {
+        Tests::findOrFail($id)->delete();
         return redirect('/tests');
     }
 }
