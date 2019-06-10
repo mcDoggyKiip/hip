@@ -21,6 +21,10 @@ return [
             'text' => 'Tests',          // The text to be displayed inside the menu.
             'url' => 'tests',     // The URL behind the text. Mutually exclusive with "route" option.
         ],
+        [
+            'text' => 'Pages',          // The text to be displayed inside the menu.
+            'url' => 'pages',     // The URL behind the text. Mutually exclusive with "route" option.
+        ],
 //        'First section',                    // Section header
 //        [
 //            'text' => 'Users',

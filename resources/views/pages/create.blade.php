@@ -8,18 +8,18 @@
         @CSRF
         <div class="row">
             <div class="form-group col-sm">
-                <label for="pageNumber">Page number<span class="text-danger">*</span></label>
-                <input type="number" class="form-control bg-dark" id="pageNumber" name="Number" required style="border: 0px solid;color:white"> 
+                <label for="pageId">Page ID<span class="text-danger">*</span></label>
+                <input type="number" class="form-control bg-dark" id="pageId" name="id" required style="border: 0px solid;color:white"> 
             </div>
 
             <div class="form-group col-sm">
-                <label for="fileLocation">File location<span class="text-danger">*</span></label>
-                <input type="string" class="form-control bg-dark" id="fileLocation" name="fileLocation" required style="border: 0px solid;color:white">
+                <label for="filetitke">File titke<span class="text-danger">*</span></label>
+                <input type="string" class="form-control bg-dark" id="fileTitke" name="fileTitke" required style="border: 0px solid;color:white">
             </div>
 
             <div class="form-group col-sm">
-                <label for="description">Description<span class="text-danger">*</span></label>
-                <input type="string" class="form-control bg-dark" id="description" name="description" required style="border: 0px solid;color:white">
+                <label for="text">Text<span class="text-danger">*</span></label>
+                <input type="string" class="form-control bg-dark" id="text" name="text" required style="border: 0px solid;color:white">
             </div>
 
             <button type="submit" class="form-control btn btn-success">Add</button>

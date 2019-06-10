@@ -7,17 +7,17 @@
         <table>
             {{-- Head of table --}}
             <tr>
-                <td>number</td>
-                <td>fileLocation</td>
-                <td>description</td>
+                <td>id</td>
+                <td>titke</td>
+                <td>text</td>
                 <td>Actions</td>
             </tr>
 
             @foreach($pages as $row)
             <tr>
-                <td class="bg-dark" style="width: 27vw;">{{ $row->number }}</td>
-                <td class="bg-dark" style="width: 27vw;">{{ $row->fileLocation }}</td>
-                <td class="bg-dark" style="width: 27vw;">{{ $row->description }}</td>
+                <td class="bg-dark" style="width: 27vw;">{{ $row->id }}</td>
+                <td class="bg-dark" style="width: 27vw;">{{ $row->titke }}</td>
+                <td class="bg-dark" style="width: 27vw;">{{ $row->text }}</td>
                 <td class="bg-dark">
                     <div class="buttonsPages" style="width: 4vw;">
                         <a style="float: left;margin: 0px 5px 0px 5px;" type="button" class="action-button btn btn-sm btn-primary" href="{{ url('pages/ . $row->id . /edit') }}">
