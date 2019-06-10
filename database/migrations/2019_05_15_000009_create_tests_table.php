@@ -27,6 +27,7 @@ class CreateTestsTable extends Migration
             $table->integer('attempt');
             $table->integer('week')->nullable();
             $table->unsignedInteger('course_id')->nullable();
+            $table->timestamps();
 
             $table->index(["course_id"], 'fk_tests_courses_idx');
 
