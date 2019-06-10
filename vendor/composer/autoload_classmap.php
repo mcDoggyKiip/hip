@@ -3467,7 +3467,7 @@ return array(
     'Symfony\\Polyfill\\Intl\\Idn\\Idn' => $vendorDir . '/symfony/polyfill-intl-idn/Idn.php',
     'Symfony\\Polyfill\\Mbstring\\Mbstring' => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php',
     'Symfony\\Polyfill\\Php72\\Php72' => $vendorDir . '/symfony/polyfill-php72/Php72.php',
-    'TermsSeeder' => $baseDir . '/database/seeds/TermsSeeder.php',
+    'TermsTableSeeder' => $baseDir . '/database/seeds/TermsTableSeeder.php',
     'Tests\\CreatesApplication' => $baseDir . '/tests/CreatesApplication.php',
     'Tests\\Feature\\ExampleTest' => $baseDir . '/tests/Feature/ExampleTest.php',
     'Tests\\TestCase' => $baseDir . '/tests/TestCase.php',
