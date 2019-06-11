@@ -115,9 +115,9 @@ class TermsController extends Controller
      */
     public function destroy($id)
     {
-        $term = Area::findOrFail($id);
+        $term = Term::findOrFail($id);
         $term->delete();
 
-        return redirect(route('terms.index'))->withSuccess('Term verwijderd!');
+         return redirect(route('terms.index'))->withSuccess('Term verwijderd!');
     }
 }
